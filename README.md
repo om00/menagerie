@@ -1,6 +1,6 @@
 # Pet Management API
 
-Go REST API for managing pets and their medical events with MySQL.
+Go REST API for managing pets and their  events with MySQL.
 
 ## Quick Start
 
