@@ -16,15 +16,15 @@ Go REST API for managing pets and their  events with MySQL.
 # Clone and setup
 git clone https://github.com/om00/menagerie.git
 cd menagerie
- ```  #
+ ```  
 
-2. **Setup environment**  # ← Proper step number
+2. **Setup environment**  
    ```bash
    cp .env.example .env
    ```
  update the credientials as mention env.example
 
-# Start with Docker
+### Start with Docker
 docker-compose up -d --build
 
 After this, the Go app will be running on APP_PORT and MySQL can be accessed on DB_PORT as configured in your .env file.
